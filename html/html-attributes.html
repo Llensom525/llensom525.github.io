@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos HTML</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/e8f7360bc9.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+<header>
+    <i class="fas fa-long-arrow-alt-left"><a href="/index.html">Volver al inicio</a></i>
+</header>
+    <h1>Atributos HTML</h1>
+    <ul>
+        <li>Todos los elementos pueden tener atributos</li>
+        <li>Los atributos proveen de informacion adicional sobre los elementos</li>
+        <li>Los atributos siempre estan especificados en la etiqueta de inicio</li>
+        <li>Ellos usualmente vienen en nombre y valos parecidos así: <span>nombre="valor"</span></li>
+    </ul>
+
+    <h2 id="href-html">Atributo href</h2>
+    <p>La etiqueta <code class="codespan">&#60;a&#62;</code> define un hipervinculo.</p>
+    <p>El atributo <code class="codespan">href</code>especifica la URL del enlace</p>
+
+    <h2 id="src-html">Atributo src</h2>
+    <p>La etiqueta <code class="codespan">&#60;img&#62;</code> se usa para insertar una imagen en una pagina HTML</p>
+    <p>EL atributo <code class="codespan">&#60;src&#62;</code> especifica la ruta de la imagen que se mostrará</p>
+
+    <p>Hay tres formas para especificar la URL del atributo <code class="codespan">src</code></p>
+    <p id="urls-html"><strong>1- URL's Absolutas</strong> Links de una imagen externa que esta hosteada en otro sitio. Por ejemplo: src="https://llensomlle.com/imagen-test.png"</p>
+    <p><strong>2- URL's Relativas</strong> Links de una imagen que esta hosteada en nuestro host. En esta, la URL no necesita el dominio. Si la URL inicia sin un diagonal (/) sera relativa a la pagina actual. Por ejemplo: src="img_dog.jpg". Si la URL inicia con una diagonal (/) esta sera relativa al dominio</p>
+    <p>Nota: Siempre es mejor usar las URL relativas, de esa forma no se rompera si llegamos a cambiar el dominio</p>
+
+    <h2 id="width-height-html">Los atributos width y height</h2>
+    <p>La etiqueta <code class="codespan">&#60;img&#62;</code> tambien contiene los atributos <code class="codespan">width</code> y <code class="codespan">height</code> que especifican lo alto y ancho de la imagen (en pixeles)</p>
+
+    <h2 id="alt-html">El atributo alt</h2>
+    <p>El atributo <em>requerido</em> <code class="codespan">alt</code> para la etiqueta <code class="codespan">&#60;img&#62;</code> especofoca un texto alterno para la imagen, si la imagen por alguna razon no puede ser mostrada. Esto puede ser por la conexion lenta o algun error en el atributo <code class="codespan">src</code> o tambien para la accesibilidad en un lector de pantalla</p>
+
+    <h2 id="style-html">El atributo style</h2>
+    <p>El atributo <code class="codespan">style</code> es usado para añadir estilos a un elemento, como el color, fuente, tamaño y más</p>
+
+    <h2 id="lang-html">El atributo lang</h2>
+    <p>Tu siempre puedes incluir el atributo <code class="codespan">lang</code> dentro de la etiqueta <code class="codespan">html</code> para declarar el idioma de la página web. Esto esta destinado para ayudar a los motores de busqueda y navegadores</p>
+    <p>Los codigos de pais pueden ser añadidos en el atributo <code class="codespan">lang</code>. En donde los primeros dos caracteres definen el lenguaje de la pagina y los ultimos dos definen el pais</p>
+
+    <p>Puedes ver todos los codigos de lenguaje en <a href="https://www.w3schools.com/tags/ref_language_s.asp">Referencia de codigo de lenguaje HTML</a> de la W3C</p>
+
+    <h2 id="title-html">El atributo title</h2>
+    <p>El atributo <code class="codespan">title</code> define informacion extra sobre un elemento</p>
+    <p>El valor del titulo se mostrara como un <span title="Esto es un tooltip">tooltip</span> cuando coloques tu cursor sobre el elemento</p>
+
+</body>
+</html>

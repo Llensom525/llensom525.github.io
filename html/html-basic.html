@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basico</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/e8f7360bc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <i class="fas fa-long-arrow-alt-left"><a href="/index.html">Volver al inicio</a></i>
+</header>
+    <h1>HTML Basico</h1>
+    <h2 id="doc-html">Documentos HTML</h2>
+    <p>Todos los documentos inician con una declaracion <code class="codespan"> &#60;!DOCTYPE html&#62; </code></p>
+    <p>El documento HTML en si empieza con <code class="codespan"> &#60;html&#62; &#60;/html&#62;</code></p>
+    <p>La parte visible del documento es entre <code class="codespan"> &#60;body&#62; &#60;/body&#62; </code></p>
+
+    <h3>Ejemplo</h3>
+    <div>
+        <code class="codespan">&#60;!DOCTYPE html&#62;</code><br>
+        <code class="codespan">&#60;html&#62;</code><br>
+        <code class="codespan">&#60;body&#62;</code><br><br>
+        <code class="codespan">&#60;h1&#62;Mi primer encabezado&#60;/h1&#62;</code><br>
+        <code class="codespan">&#60;p&#62;Mi primer parrafo&#60;/p&#62;</code><br>
+        <code class="codespan">&#60;/body&#62;</code><br>
+        <code class="codespan">&#60;/html&#62;</code>
+    </div>
+
+    <h2 id="doctype-html">La declaracion &#60;!DOCTYPE&#62;</h2>
+    <p>La declaracion <code class="codespan">&#60;!DOCTYPE&#62;</code> representa el tipo de documento y ayuda al buscador a mostrar la pagina web
+        correctamente</p>
+    <p>Esta solo debe de aparecer una vez en toda la pagina, que es en el inicio de esta y antes de cualquier otra
+        etiqueta HTML</p>
+    <p>La etiqueta no es sensible a las mayusculas</p>
+    <p>La declaracion <code class="codespan">&#60;!DOCTYPE&#62;</code> para HTML5 es:</p>
+    <code class="codespan">&#60;!DOCTYPE html&#62;</code>
+
+    <h2 id="h-html">Encabezados HTML</h2>
+    <p>Los encabezados en HTML estan definidos por <code class="codespan">&#60;h1&#62;</code> a <code class="codespan">&#60;h6&#62;</code></p>
+    <p><code class="codespan">&#60;h1&#62;</code> representa el encabezado más importante mientras que <code class="codespan">&#60;h6&#62;</code>
+        representa el menos importante</p>
+    <h3>Ejemplo</h3>
+    <div>
+        <code class="codespan">&#60;h1&#62;Este es un encabezado 1&#60;/h1&#62;</code><br>
+        <code class="codespan">&#60;h2&#62;Este es un encabezado 2&#60;/h2&#62;</code><br>
+        <code class="codespan">&#60;h3&#62;Este es un encabezado 3&#60;/h3&#62;</code>
+    </div>
+    <h2 id="p-html">Parrafos HTML</h2>
+    <p>Los parrafos son definidos con una etiqueta <code class="codespan">&#60;p&#62;</code>:</p>
+    <h3>Ejemplo</h3>
+    <div>
+        <code class="codespan">&#60;p&#62;Este es un parrafo&#60;/p&#62;</code><br>
+        <code class="codespan">&#60;p&#62;Este es otro parrafo&#60;/p&#62;</code>
+    </div>
+
+    <h2 id="link-html">Links HTML</h2>
+    <p>Los links son definidos por la etiqueta <code class="codespan">&#60;a&#62;</code>:</p>
+    <h3>Ejemplo</h3>
+    <div>
+        <code class="codespan">&#60;a href="https://www.llensomlle.com"&#62;Este es un links&#60;/a&#62;</code>
+    </div>
+    <p>El link de destino está especificado por el atributo <code class="codespan">href</code></p>
+    <p>Los atributos son usados para proveer informacion adicional a los elementos HTML</p>
+
+    <h2 id="img-html">Imagenes HTML</h2>
+    <p>Las imagenes son definidas por la etiqueta <code class="codespan">&#60;img&#62;</code>:</p>
+    <p>El archivo fuente: <code class="codespan">&#60;src&#62;</code></p>
+    <p>Texto alternativo: <code class="codespan">&#60;alt&#62;</code>, la w3c nos dice que es obligatorio poner este atributo, ya que es un texto que se le colocara a la imagen si por alguna razon no puede cargar y para la accesibilidad</p>
+    <p>Tamaño: <code class="codespan">&#60;width&#62;</code> y <code class="codespan">&#60;height&#62;</code></p>
+
+</body>
+
+</html>
