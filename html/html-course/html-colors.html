@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores HTML</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/e8f7360bc9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <i class="fas fa-long-arrow-alt-left"><a href="/html/html-course/index-html.html">Volver al inicio</a></i>
+    </header>
+
+    <h1>Colores HTML</h1>
+    <p>Los colores son especificados con nombres de colores predefinidos, RGB, HEX, HSL,RGBA, o valores HSLA</p>
+
+    <h2>Nombre de los colores</h2>
+    <ul>
+        <li style="background-color: tomato;">Tomato</li>
+        <li style="background-color: orange;">Orange</li>
+        <li style="background-color: dodgerblue;">DodgerBlue</li>
+        <li style="background-color: mediumseagreen;">MediumSeaGreen</li>
+        <li style="background-color: gray;">Gray</li>
+        <li style="background-color: slateblue;">SlateBlue</li>
+        <li style="background-color: violet;">Violet</li>
+        <li style="background-color: lightgray;">LightGray</li>
+    </ul>
+
+    <p>Esto es solo un ejemplo ya que el estandar soporta <a href="">140 colores nombres de colores</a></p>
+
+    <h2>Background Color</h2>
+    <p>Tu puedes poner como al fondo de los elementos HTML</p>
+    <div>
+        <div style="background-color: dodgerblue;">Hello World</div>
+        <div style="background-color: tomato;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo ad rerum
+            ut quae, officiis minima placeat unde illum, eveniet error inventore, non nostrum repudiandae! Facere non
+            ducimus magnam facilis ipsa!</div>
+
+        <h3>Ejemplo</h3>
+        <div>&#60;h1 style="background-color: dodgerblue;"&#62;Hello World&#60;/h1&#62;</div>
+        <div>&#60;p style="background-color: tomato;"&#62;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+            ad rerum ut quae, officiis minima placeat unde illum, eveniet error inventore, non nostrum repudiandae!
+            Facere non ducimus magnam facilis ipsa!&#60;/p&#62;</div>
+    </div>
+
+    <h2>Color de texto</h2>
+    <p>Puedes poner colores a los textos</p>
+    <div>
+        <div style="color: tomato;">Hello World</div>
+        <div style="color: dodgerblue;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur adipisci
+            natus laborum quae et nisi accusamus rerum fuga, autem, voluptatem, a fugiat itaque aspernatur in minima
+            dolor. Sed, nobis cumque.</div>
+        <div style="color: mediumseagreen;">Rem distinctio eveniet cumque nostrum excepturi voluptatem voluptatibus,
+            minima ipsum nulla a esse possimus dolores enim fugiat alias aut, eius molestiae placeat.</div>
+
+        <h3>Ejemplo</h3>
+        <div>&#60;h1 style="color: tomato;"&#62;Hello World&#60;/h1&#62;</div>
+        <div>&#60;p style="color:dodgerblue"&#62;Lorem ipsum&#60;/p&#62;</div>
+        <div>&#60;p style="color:mediumseagreen"&#62;Rem distinctio&#60;/p&#62;</div>
+    </div>
+
+    <h2>Color de borde</h2>
+    <p>Puedes poner color a los bordes</p>
+
+    <div style="border: 2px solid tomato;">Hello World</div>
+    <div style="border: 2px solid dodgerblue;">Hello World</div>
+    <div style="border: 2px solid violet;">Hello World</div>
+
+    <h3>Ejemplo</h3>
+    <div>&#60;h1 style="border: 2px solid tomato;"&#62;Hello World&#60;/h2&#62;</div>
+        <div>&#60;h1 style="border: 2px solid dodgerblue;"&#62;Hello World&#60;/h2&#62;</div>
+        <div>&#60;h1 style="border: 2px solid violet;"&#62;Hello World&#60;/h2&#62;</div>
+    </div>
+
+    <h2>Valores de los colores</h2>
+    <p>En HTML los colores pueden ser especificados usando valores RGB, HEX, HSL, RGBA y HSLA</p>
+    <p>Los siguientes tres <code class="codespan">&#60;div&#62;</code> tendremos un ajuste del <code
+            class="codespan">background-color</code> colocado con valores RGB, HEX y HSL</p>
+    <div>
+        <div style="background-color: rgb(255, 99, 71); margin-bottom: 5px;">rgb(255, 99, 71)</div>
+        <div style="background-color: #ff6347; margin-bottom: 5px;">#ff6347</div>
+        <div style="background-color: hsl(9, 100%, 64%); margin-bottom: 5px;">hsl(9, 100%, 64%)</div>
+    </div>
+    <p>Los siguientes dos <code class="codespan">&#60;div&#62;</code> tienen su fondo colocado con RGBA y HSLA, lo
+        que le añade el canal Alpha al color (Aqui es 50% transparencia)</p>
+    <div>
+        <div style="background-color: rgba(255, 99, 71, 0.5); margin-bottom: 5px;">rgba(255, 99, 71, 0.5)</div>
+        <div style="background-color: hsla(9, 100%, 64%, 0.5); margin-bottom: 5px;">hsla(9, 100%, 64%, 0.5)</div>
+    </div>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>
+            <div>&#60;h1 style="background-color:rgb(255, 99, 71);"&#62;...&#60;/h1&#62;</div>
+            <div>&#60;h1 style="background-color:#ff6347;"&#62;...&#60;/h1&#62;</div>
+            <div>&#60;h1 style="background-color:hsl(9, 100%, 64%);"&#62;...&#60;/h1&#62;</div>
+        </div>
+        <br>
+        <div>
+            <div>&#60;h1 style="background-color:rgba(255, 99, 71, 0.5);"&#62;...&#60;/h1&#62;</div>
+            <div>&#60;h1 style="background-color:hsla(9, 100%, 64%, 0.5);"&#62;...&#60;/h1&#62;</div>
+        </div>
+    </div>
+</body>
+
+</html>

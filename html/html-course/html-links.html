@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/e8f7360bc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <i class="fas fa-long-arrow-alt-left"><a href="/html/html-course/index-html.html">Volver al inicio</a></i>
+    </header>
+
+    <h1>Links HTML</h1>
+    <p>Los links estan en casi todas las paginas web. Estos permiten al usuerio hacer click y llevarlos de una pagina a otra</p>
+
+    <h2>Hyperlinks</h2>
+    <p>Los links HTML son hipervinculos</p>
+    <p>Tu puedes hacer click a un link e ir a otro documento</p>
+    <p>Cuando tu mueves tu mouse sobre un link, la flecha del mouse se convertira en una pequeña mano</p>
+    <p>Nota: Un enlace no tiene porque se un texto, puede ser una imagen o cualquier otro elemento HTML</p>
+
+    <h2>Sintaxis</h2>
+    <p>La etiqueta <code class="codespan">&#60;a&#62;</code> define un hipervinculo. Tiene la siguiente sintaxis</p>
+    <div>&#60;a href="link text"&#62;&#60;/a&#62;</div>
+    <p>Lo más importante del atributo <code class="codespan">&#60;a&#62;</code> es el elemento <code class="codespan">href</code> que indica el link de destino</p>
+    <p>El texto del enlace es la parte que sera visible para el lector</p>
+    <p>Al clickear en el texto, el lector sera enviado a la direccióon URL especificada</p>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>&#60;a href="https://www.llensomlle.com"&#62;Visita Llensom Lle!&#60;/a&#62;</div>
+    </div>
+    <p>Nota: Por defecto los links apareceran de la siguiente forma en todos los navegadores:</p>
+    <ul>
+        <li>Un link no visitado, subrayado y azul</li>
+        <li>Un link visitado, subrayado y purpura </li>
+        <li>Un link activo, subrayado y rojo</li>
+    </ul>
+    <p>Pero puedes darles tu propio formato con CSS</p>
+
+    <h2>El atributo target</h2>
+    <p>Por defecto, la pagina vinculada sera mostrada in la pagina actual del navegador. Para cambiar esto debemos especificar otro objetivo para el link</p>
+    <p>El atributo <code class="codespan">target</code> especifica donde abrira el documento vinculado</p>
+    <p>Este atributo tiene los siguientes valores</p>
+    <ul>
+        <li><code class="codespan">_self</code>Default. Abre el documento en la misma ventana/pestaña que fue clickeado</li>
+        <li><code class="codespan">_blank</code> Abre el documento en una nueva ventana o pestaña</li>
+        <li><code class="codespan">_parent</code>Abre el documento en </li>
+        <li><code class="codespan"></code></li>
+    </ul>
+    <a href="https://llensom525.github.io" target="_parent">asdasdsdd</a>
+
+</body>
+</html>

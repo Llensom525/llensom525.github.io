@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es-MX"s-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato de texto</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/e8f7360bc9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <i class="fas fa-long-arrow-alt-left"><a href="/html/html-course/index-html.html">Volver al inicio</a></i>
+    </header>
+
+    <h1>Quotation and Citation Elements</h1>
+    <p>En este capitulo vamos a ver los elementos <code class="codespan">&#60;blockquote&#62;</code>, <code
+            class="codespan">&#60;q&#62;</code>, <code class="codespan">&#60;abbr&#62;</code>, <code
+            class="codespan">&#60;address&#62;</code>, <code class="codespan">&#60;cite&#62;</code>, <code
+            class="codespan">&#60;bdo&#62;</code></p>
+
+    <h2>Elemento &#60;blockquote&#62; para citas</h2>
+    <p>Define una seccion que se cita de otra fuente</p>
+    <p>Los navegadores normalmente indentan estos elementos</p>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>
+            <p>&#60;p&#62;Aqui esta una cita del sitio web de WWF's&#60;/p&#62;</p>
+            <p>&#60;blockquote cite="http://www.worldwildlife.org/who/index.html"&#62;For 50 years, WWF has been
+                protecting the future of nature.
+                The world's leading conservation organization,
+                WWF works in 100 countries and is supported by
+                1.2 million members in the United States and
+                close to 5 million globally.&#60;/blockquote&#62;</p>
+        </div>
+        <div>
+            <p>Aqui esta una cita del sitio web de WWF's</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature.
+                The world's leading conservation organization,
+                WWF works in 100 countries and is supported by
+                1.2 million members in the United States and
+                close to 5 million globally.
+            </blockquote>
+        </div>
+    </div>
+
+    <h2>Elemento &#60;q&#62; para citas cortas</h2>
+    <p>El elemento define una cita corta</p>
+    <p>Los navegadores normalmente ponen comillas alrededor de la cita</p>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>&#60;p&#62;La meta de WWF's es: &#60;q&#62;Build a future where people live in harmony with
+            nature&#60;/q&#62;&#60;/p&#62;</div>
+        <div>
+            <p>La meta de WWF's es: <q>Build a future where people live in harmony with nature</q></p>
+        </div>
+    </div>
+
+    <h2>Elemento &#60;abbr&#62; para abreviaciones</h2>
+    <p>Define una abreviacion o acronimo, tal como "HTML", "CSS", "ASAP" etc.</p>
+    <p>Marcar las abreviaciones pueden otorgar informacion util a los navegadores, sistemas de traducciones y motores de
+        busqueda</p>
+    <p>Nota: Usa el atributo golabal <code class="codespan">title</code> para mostrar la descripcion de la abreviacion o
+        acronimo cuando coloques tu mouse encima del elemento</p>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>&#60;p&#62;La &#60;abbr title="Word Health Organization"&#62;WHO&#60;/abbr&#62; was founded in
+            1948&#60;/div&#62;</div>
+    </div>
+
+    <h2>Elemento &#60;address&#62; para informacion de contacto</h2>
+    <p>La etiqueta <code class="codespan">&#60;address&#62;</code> define la informacion de contacto del dueño/autor de
+        un documento o articulo</p>
+    <p>La informacion de contacto puede ser un email, URL, domicilio, numero telefonico, redes sociales etc.</p>
+    <p>El texto en <code class="codespan">&#60;address&#62;</code> usualmente se rederiza en <i>italic</i> y los
+        navegadores siempre añadiran un slato de linea antes y despues del elemento</p>
+    <div>
+        <h3>Ejemplo</h3>
+        <div>
+            &#60;address&#62;<br>
+            Written by John Doe&#60;br&#62;<br>
+            Visitanos en:&#60;br&#62;<br>
+            yourdomain.com&#60;br&#62;<br>
+            Calle Azucares del mañana&#60;br&#62;<br>
+            Mexico <br>
+            &#60;/address&#62;
+        </div>
+        <br>
+        <div>
+            <address>
+                Written by John Doe<br>
+                Visitanos en:<br>
+                yourdomain.com<br>
+                Calle Azucares del mañana<br>
+                Mexico <br>
+            </address>
+        </div>
+    </div>
+
+    <h2>Elemento &#60;cite&#62; para el titulo de un trabajo</h2>
+    <p>Define un trabajo creativo (Algún libro, poema, una cancion, pelicula, pintura, escultura etc.)</p>
+    <p>Nota: El nombre de una persona no es el titulo de un trabajo</p>
+    <p>Esta etiqueta normalmente se renderiza en <i>italic</i></p>
+    <div>
+        <div>&#60;p&#62;&#60;cite&#62;The Scream&#60;/cite&#62; by Edvard Munch. Painted in 1893&#60;/p&#62;</div>
+        <div><p><cite>The Scream</cite> by Edvard Munch. Painted in 1893</p></div>
+    </div>
+
+    <h2>Elemento &#60;bdo&#62; para la anulacion bidireccional</h2>
+    <p>BDO son las siglas de Bidireccional, esta etiqueta cambia la direccon del texto</p> 
+    <p>Su atributo es: <code class="codespan">dir</code> con los valores de:</p>
+    <ul>
+        <li><code class="codespan">ltr</code>: Indica que el texto vaya de left-to-right</li>
+        <li><code class="codespan">rtl</code>: Indica que el texto vaya de roght-to-left</li>
+    </ul>
+    <div>
+        <h3>Ejemplo</h3>
+
+        <div>
+            <p>&#60;p&#62;Este texto va de izquierda a derecha&#60;/p&#62;</p>
+            <p>&#60;p&#62;&#60;bdo dir="rtl"&#62; Pero este texto va de derecha a izquierda&#60;/bdo&#62;&#60;/p&#62;</p>
+        </div>
+        <div>
+            <p>Este texto va de izquierda a derecha</p>
+            <p><bdo dir="rtl">Pero este texto va de dercha a izquierda</bdo></p>
+        </div>
+    </div>
+
+</body>
+</html>
